@@ -1,0 +1,9 @@
+# Terraform files
+.terraform*
+terraform.tfstate.backup
+terraform.tfstate.*.backup
+*.DS_Store
+*.pyc
+*.zip
+*.csv
+*.ini
