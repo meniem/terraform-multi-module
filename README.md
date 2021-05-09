@@ -86,7 +86,7 @@ for module in $modules; do
     module_dir="${modules_dir}/${module}"
     pushd ${module_dir}
     terraform fmt -check -diff
-	popd
+    popd
 done
 ```
 
